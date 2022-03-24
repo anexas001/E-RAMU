@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/reserve.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="text-center">
+                <a href="/" class="nav-brand text-dark">E-RAMU</a>
+            </div>
+        </div>
+
+        <form method="POST" action="/Reserve" id="add_customer">
+            <div class="new_customer">
+                <div class="form-group">
+                    <label for="name" class="text-light">Name</label>
+                    <input type="hidden" name="id" value="">
+                    <input type="text" name="name" value="" placeholder="Mark Stonis">
+                </div>
+                <div class="form-group">
+                  <label for="date" class="text-light">Day</label>
+                  <input type="date" name="date" value="" placeholder="19-11-2021">
+              </div>
+              <div class="form-group">
+                  <label for="time" class="text-light">Timings</label>
+                  <input type="time" name="time" value="" placeholder="19-11-2021">
+              </div>
+              <div class="form-group">
+                  <label for="customer_count" class="text-light">Table for</label>
+                  <input type="number" name="customer_count" value="" placeholder="3">
+              </div>
+              <div class="form-group">
+                  <label for="phone" class="text-light">Mobile</label>
+                  <input type="tel" name="phone" value="" >
+              </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn text-dark update">Save</button>
+            </div>
+        
+        
+            
+        </form>
+    </header>
+</body>
+</html>

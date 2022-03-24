@@ -1,0 +1,199 @@
+/* Navigation Bar */
+body{
+  margin: 0px;
+  font-size: 1.2rem;
+  background-color: #D1E8E4;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+  }
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+  #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+    /* opacity: 0.5; */
+  }
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+  }
+
+  #logo img{
+    margin: 3px 6px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+  }
+
+  /* Navigation Bar: List Styling */
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+  }
+
+
+  #navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem   ;
+  }
+
+  #navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+  }
+
+
+
+.login_box{
+  width: 50%;
+  height: 500px;
+  margin-top: 4.5%;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 4.5%;
+}
+.login_box img{
+  margin: 15px 36px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+}
+.login_box h3{
+  position: absolute;
+  left: 35%;
+  top: 23%;
+}
+.login_box h3 a{
+  color: rgb(89, 78, 78);
+  text-decoration: none;
+}
+.login_box p{
+  text-align: justify;
+  clear: both;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-size: 1.3rem;
+}
+.form{
+  text-align: justify;
+  clear: both;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.forgot{
+  font-size: .9rem;
+  font-family: monospace;
+  position: relative;
+  right: 123px;
+  color: grey;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px grey;
+}
+.login_box .member{
+  font-size: 1.15rem;
+}
+.member a{
+  color: black;
+}
+.member a:active{
+  color: grey;
+}
+.staff_management_login{
+  background-color: #e5f4fb;
+  color: black;
+  margin-top: 13%;
+  margin-bottom: 13%;
+  width: 700px;
+}
+.staff_management_login button{
+  background-color: #3bb0de;
+  color: black;
+}
+.staff_management_login button:hover{
+  color: #3bb0de;
+  background-color: black;
+}
+
+body{
+  font-family: 'Baloo Bhai', cursive;
+  color:rgb(89, 78, 78);
+  font-size: 1.5rem;
+}
+input{
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #000000;
+   width: 350px;
+}
+button{
+  font-size: 1.5rem;
+  font-family: 'Baloo Bhai', cursive;
+  padding: 3px 22px;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  color: buttonface;
+  background-color: buttontext;
+}
+footer{
+  background: black;
+  font-family: serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: white;
+  padding: 9px 20px;
+}
+.center{
+  text-align: center;
+}
+.successful_login{
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+}
+.successful_login h3{
+  margin-top: 75px;
+}
+.failed_login{
+  height: 400px;
+  width: 55%;
+}
+.failed_login .mail-link{
+  text-decoration: underline;
+}
